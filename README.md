@@ -19,7 +19,8 @@ the following article:
 ## Installing
 
 To compile and install the C binary and the Python bindings:
-
+    
+    export CC=/usr/local/bin/gcc-11
     make
     sudo make install
     python3 setup.py install
